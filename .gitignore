@@ -1,12 +1,17 @@
-GROQ_API_KEY=your_key_here
-
+# Environments
 venv/
 .env
+
+# Python
 __pycache__/
 *.pyc
 .pytest_cache/
 *.egg-info/
+
+# FAISS / generated data
 faiss_index/
 outputs/
+
+# OS/editor
 .vscode/
 .DS_Store
