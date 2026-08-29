@@ -1,0 +1,12 @@
+GROQ_API_KEY=your_key_here
+
+venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+faiss_index/
+outputs/
+.vscode/
+.DS_Store
